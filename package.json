@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "dev:rc": "RC_ONLY=true vite",
+    "dev:million": "MILLION_ONLY=true vite",
+    "build": "vite build",
+    "build:rc": "RC_ONLY=true vite build",
+    "build:million": "MILLION_ONLY=true vite build"
+  },
+  "dependencies": {
+    "@million/lint": "^1.0.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "babel-plugin-react-compiler": "0.0.0-experimental-b4db8c3-20241001",
+    "react": "19.0.0-rc-459fd418-20241001",
+    "react-dom": "19.0.0-rc-459fd418-20241001",
+    "vite": "^5.4.8",
+    "vite-plugin-inspect": "^0.8.7"
+  }
+}

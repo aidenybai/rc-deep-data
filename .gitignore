@@ -1,0 +1,4 @@
+# Million Lint
+.million
+node_modules
+.DS_Store
